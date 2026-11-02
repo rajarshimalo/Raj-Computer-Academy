@@ -60,6 +60,12 @@ export default function CourseDetail() {
               <Monitor className="w-3.5 h-3.5" />
               {course.availability}
             </span>
+            {course.prerequisite && (
+              <span className="inline-flex items-center gap-1.5 text-sm font-medium px-3 py-1.5 rounded-full bg-amber-50 text-amber-700 border border-amber-200">
+                <BookOpen className="w-3.5 h-3.5" />
+                Prerequisite: {course.prerequisite}
+              </span>
+            )}
           </div>
 
           <p className="text-charcoal/80 text-lg leading-relaxed max-w-2xl">

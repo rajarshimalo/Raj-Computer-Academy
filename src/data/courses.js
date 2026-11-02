@@ -10,8 +10,8 @@ export const COURSES = [
     color: 'blue',
     audience: 'Classes 8–12 (all boards)',
     availability: 'Online & Offline Home Tuition',
+    prerequisite: null,
     topics: [
-      'Introduction to Python and setting up the environment',
       'Variables, data types and input/output',
       'Conditional statements (if, elif, else)',
       'Loops (for and while)',
@@ -40,6 +40,7 @@ By the end, you will be able to write your own programs and understand how progr
     color: 'purple',
     audience: 'Classes 8–12 (all boards)',
     availability: 'Online & Offline Home Tuition',
+    prerequisite: 'Basic understanding of Python programming is helpful but not required.',
     topics: [
       'Introduction to Artificial Intelligence — what it is and how it is used',
       'Understanding Machine Learning concepts',
@@ -68,6 +69,7 @@ Whether you are curious about how AI works or want to prepare for future studies
     color: 'orange',
     audience: 'Classes 8–12 (all boards)',
     availability: 'Online & Offline Home Tuition',
+    prerequisite: null,
     topics: [
       'Programming fundamentals and how C programs work',
       'Variables, data types and operators',
@@ -97,6 +99,7 @@ This course starts from zero — no prior programming knowledge is needed — an
     color: 'teal',
     audience: 'Classes 8–12 (all boards)',
     availability: 'Online & Offline Home Tuition',
+    prerequisite: 'Basic programming knowledge (Python or C) is recommended.',
     topics: [
       'Introduction to data structures and why they matter',
       'Arrays and their operations',
@@ -126,6 +129,7 @@ This course covers the essential data structures and algorithms in a clear, step
     color: 'indigo',
     audience: 'Classes 8–12 (all boards)',
     availability: 'Online & Offline Home Tuition',
+    prerequisite: null,
     topics: [
       'Introduction to databases and Database Management Systems',
       'Tables, rows, columns and relationships',
@@ -155,6 +159,7 @@ Concepts are explained simply and practised hands-on, so you understand database
     color: 'cyan',
     audience: 'Classes 8–12 (all boards)',
     availability: 'Online & Offline Home Tuition',
+    prerequisite: null,
     topics: [
       'What is a computer and how it works',
       'Hardware components: CPU, RAM, storage, input/output devices',
@@ -183,6 +188,7 @@ Topics are explained in plain, everyday language — no jargon, no confusion. By
     color: 'emerald',
     audience: 'Classes 8–12 (all boards)',
     availability: 'Online & Offline Home Tuition',
+    prerequisite: null,
     topics: [
       'Computer Science topics as per the school curriculum',
       'CBSE, ICSE and State Board syllabus coverage',
@@ -221,5 +227,6 @@ export const CONTACT = {
   phoneDisplay: '+91 97481 32517',
   email: 'mailto:rajarshimalo749@gmail.com',
   emailDisplay: 'rajarshimalo749@gmail.com',
+  location: 'Naihati',
 }
 

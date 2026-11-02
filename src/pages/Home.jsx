@@ -81,7 +81,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2 px-4 py-2.5 bg-white rounded-xl border border-slate-200 shadow-sm text-sm font-medium text-charcoal">
                   <MapPin className="w-4 h-4 text-primary-600" />
-                  Offline Home Tuition
+                  Offline Home Tuition · Naihati &amp; Nearby
                 </div>
               </div>
             </div>
@@ -109,7 +109,7 @@ export default function Home() {
                 </div>
                 {/* Floating badge */}
                 <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-lg px-4 py-2.5 border border-slate-100">
-                  <p className="text-xs text-slate-500 font-medium">B.Sc. Computer Science</p>
+                  <p className="text-xs text-slate-500 font-medium">Currently Pursuing B.Sc. CS</p>
                   <p className="text-sm font-bold text-navy">CS & AI Educator</p>
                 </div>
               </div>

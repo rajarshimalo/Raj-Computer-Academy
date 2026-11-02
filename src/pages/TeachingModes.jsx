@@ -52,7 +52,7 @@ const FAQ = [
   },
   {
     q: 'What areas are covered for offline home tuition?',
-    a: 'Please reach out via WhatsApp or phone to discuss whether your location is feasible for offline sessions.',
+    a: 'Offline home tuition is currently available in Naihati and nearby areas. Please reach out via WhatsApp or phone to confirm whether your location is covered.',
   },
 ]
 
@@ -110,8 +110,12 @@ export default function TeachingModes() {
                   <MapPin className="w-8 h-8 text-orange-500" />
                 </div>
                 <h2 className="text-2xl font-bold text-navy mb-2">Offline Home Tuition</h2>
-                <p className="text-slate-500 leading-relaxed mb-6">
+                <p className="text-slate-500 leading-relaxed mb-4">
                   Personalised, face-to-face learning conducted at the student's home. Ideal for students who prefer direct, in-person guidance.
+                </p>
+                <p className="text-sm text-orange-600 font-medium mb-4 flex items-center gap-1.5">
+                  <MapPin className="w-3.5 h-3.5" />
+                  Currently available in Naihati &amp; nearby areas
                 </p>
                 <ul className="space-y-3 mb-8">
                   {OFFLINE_FEATURES.map(({ icon: Icon, label }, i) => (

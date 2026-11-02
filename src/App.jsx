@@ -2,6 +2,7 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import MobileActionDock from './components/MobileActionDock'
 import Home from './pages/Home'
 import Courses from './pages/Courses'
 import CourseDetail from './pages/CourseDetail'
@@ -33,6 +34,7 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
+      <MobileActionDock />
     </div>
   )
 }
